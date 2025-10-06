@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbio"
+  site-url: "https://mcclellanio.github.io/nbio"
+  description: "Test of nbdev"
+  repo-branch: main
+  repo-url: "https://github.com/mcclellanio/nbio"

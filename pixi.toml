@@ -1,0 +1,12 @@
+[workspace]
+authors = ["mcclellanio <mcclellanio@fastmail.com>"]
+channels = ["conda-forge"]
+name = "nbio"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+jupyter = ">=1.1.1,<2"
+nbdev = ">=2.4.5,<3"
