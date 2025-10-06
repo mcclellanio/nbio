@@ -5,4 +5,6 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://mcclellanio.github.io',
                 'git_url': 'https://github.com/mcclellanio/nbio',
                 'lib_path': 'nbio'},
-  'syms': {'nbio.core': {'nbio.core.foo': ('core.html#foo', 'nbio/core.py')}}}
+  'syms': { 'nbio.core': {'nbio.core.foo': ('core.html#foo', 'nbio/core.py')},
+            'nbio.nbio': { 'nbio.nbio.foo': ('nbio.html#foo', 'nbio/nbio.py'),
+                           'nbio.nbio.say_hello': ('nbio.html#say_hello', 'nbio/nbio.py')}}}
